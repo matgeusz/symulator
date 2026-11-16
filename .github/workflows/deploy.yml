@@ -2,6 +2,7 @@
 
 on:
   push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -30,19 +31,13 @@ jobs:
 
       - run: npm ci
 
-      # base dla Vite wyznaczany jest z GITHUB_REPOSITORY (vite.config.ts) => /<nazwa-repo>/
       - run: npm run build
-
-      # SPA fallback dla odświeżenia strony pod nieistniejącą ścieżką
-      - run: cp dist/index.html dist/404.html
 
       - uses: actions/upload-pages-artifact@v3
         with:
           path: symulator/dist
 
   deploy:
-    # publikacja tylko z gałęzi głównej; na pozostałych gałęziach sprawdzamy samo budowanie
-    if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main'
     needs: build
     runs-on: ubuntu-latest
     environment:

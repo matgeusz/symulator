@@ -65,9 +65,9 @@ const VIEW_LABEL: Record<View, string> = { front: 'z przodu', back: 'z tyłu', s
 function BodyImage({ view, flip }: { view: View; flip?: boolean }) {
   if (view === 'side') {
     // obraz 900×1200 wpisany w układ 1000×1400 (skala 1,111; przesunięcie w pionie 33,3)
-    return <image href="/svg/side.webp" x={0} y={33.3} width={1000} height={1333.3} preserveAspectRatio="none" transform={flip ? 'translate(1000,0) scale(-1,1)' : undefined} />
+    return <image href={`${import.meta.env.BASE_URL}svg/side.webp`} x={0} y={33.3} width={1000} height={1333.3} preserveAspectRatio="none" transform={flip ? 'translate(1000,0) scale(-1,1)' : undefined} />
   }
-  return <image href={`/svg/${view}.svg`} x={0} y={0} width={1000} height={1400} preserveAspectRatio="none" />
+  return <image href={`${import.meta.env.BASE_URL}svg/${view}.svg`} x={0} y={0} width={1000} height={1400} preserveAspectRatio="none" />
 }
 
 function Defs() {

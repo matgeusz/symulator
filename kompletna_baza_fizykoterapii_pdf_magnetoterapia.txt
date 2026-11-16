@@ -1,0 +1,451 @@
+================================================================================
+FIZYKOTERAPIA – KOMPLETNA BAZA WIEDZY EGZAMINACYJNEJ
+(Światłolecznictwo, Laser, Krioterapia, Ciepłolecznictwo, Ultradźwięki, Pole Magnetyczne)
+================================================================================
+
+================================================================================
+1. ŚWIATŁOLECZNICTWO (ĆW. 1) – PROMIENIOWANIE IR (NAŚWIETLANIE)
+================================================================================
+Charakterystyka fizyczna:
+- Niewidzialne promieniowanie elektromagnetyczne o długości fali: 770–15 000 nm.
+- Krótkofalowe: 770–1500 nm (penetracja do 10 mm – naskórek, skóra właściwa).
+- Długofalowe: 4000–15 000 nm (penetracja 0,5–3 mm).
+- Zasada: Im wyższa temperatura ciała ogrzanego, tym krótsza fala. Im krótsza fala, tym głębsza penetracja.
+
+Generatory:
+- Nieświetlne: długo- i średniofalowe.
+- Świetlne: podczerwień i promieniowanie widzialne, źródłem są żarówki:
+  * Węglowe – mała moc, do 70 W (promień długofalowy).
+  * Wolframowe – duża moc, 200 W do 1500 W (promień krótkofalowy), np. Lampa Sollux.
+
+Działanie biologiczne IR:
+- Prawo Grotthusa-Drapera: skutki biologiczne może wywołać w tkankach tylko energia pochłoniętego przez nie promieniowania.
+- Mechanizm: wpływ cieplny na tkanki – energia promieniowania zwiększa energię kinetyczną, podnosząc stan cieplny tkanek.
+- Na stopień odczynu wpływają: intensywność źródła, czas, wielkość powierzchni naświetlanej, tolerancja miejscowa i osobnicza.
+
+Wpływ miejscowy – RUMIEŃ CIEPLNY:
+- Powstaje w skórze w miejscu promieniowania i okolicach sąsiadujących na skutek rozszerzenia naczyń krwionośnych.
+- Cechy rumienia cieplnego:
+  * Występuje już w trakcie naświetlania.
+  * Jego nasilenie wzrasta wraz z czasem naświetlania.
+  * Zaczerwienienie jest nierównomierne i plamiste (rozszerzenie głębiej położonych naczyń).
+  * Znika po niedługim czasie od zabiegu (1–2 godz.) w zależności od dawki i tolerancji pacjenta.
+- Efekty miejscowe: rozszerzenie naczyń włosowatych, zmniejszenie napięcia mięśni, podwyższenie progu odczucia bólu, pobudzenie receptorów cieplnych skóry i reakcje odruchowe w narządach wewnętrznych.
+
+PRAWO DASTRE-MORATA:
+- Bodźce termiczne działające na dużą powierzchnię skóry (ok. 50% i więcej) powodują przeciwne do naczyń skóry zachowanie się dużych naczyń klatki piersiowej i jamy brzusznej (naczynia nerek, śledziony i mózgu reagują tak samo jak naczynia skóry).
+- Zabieg cieplny na dużą powierzchnię: naczynia skóry rozszerzają się -> duże naczynia klp i jamy brzusznej zwężają się (utrzymanie równowagi ciśnienia i temperatury wewnątrz organizmu).
+- Zabieg zimny na dużą powierzchnię: naczynia skóry zwężają się -> duże naczynia klp i jamy brzusznej rozszerzają się (przekierowanie krwi do wnętrza dla ochrony narządów przed wychłodzeniem).
+
+Odczyny ogólne (przy IR na dużą powierzchnię skóry):
+- Przyspieszone tętno, podniesione ciepło ciała, przejściowa utrata masy (wydzielanie potu), usprawnienie obiegu krwi, zmniejszenie napięcia mięśni, przyspieszenie oddechu.
+- Czynność nerek: zależy od intensywności – przy przegrzaniu następuje zmniejszenie ich czynności.
+
+Wskazania (IR):
+- Przewlekłe stany zapalne zatok, stawów i tkanek okołostawowych oraz tkanek miękkich.
+- Stany po urazach narządu ruchu.
+- Zespoły bólowe i nerwobóle.
+- Oparzenia / odmrożenia.
+- Stany po przebytym bakteryjnym zapaleniu skóry.
+- Ogrzanie chłodnych części ciała przed masażem, ćwiczeniami, zabiegami fizykalnymi.
+
+PRZECIWWSKAZANIA (IR / Sollux):
+- Ostry stan zapalny, obrzęki.
+- Skłonność do krwawień.
+- Gorączka, gruźlica.
+- Żylaki, choroby układu krążenia, zarostowe schorzenia naczyń, zakrzepowe zapalenie żył, rozszerzone naczynia krwionośne, zaburzenia w ukrwieniu obwodowych naczyń krwionośnych.
+- Nadciśnienie tętnicze II stopnia.
+- Choroby nerek, wątroby, niedokrwistość.
+- Choroby nowotworowe, choroba wrzodowa.
+- Stan ogólnego wyniszczenia organizmu.
+
+LAMPA SOLLUX – FILTRY I METODYKA:
+- Filtr niebieski: powoduje obkurczenie naczyń, płytka penetracja (do 3 mm), działanie łagodzące/przeciwbólowe. Wskazania: zaburzenia naczynioruchowe, nerwobóle, przeczulica, odmrożenia, stany pourazowe.
+- Filtr czerwony: ogranicza skutek biologiczny (przepuszcza promienie podczerwone i czerwone). Wskazania: przewlekłe stany zapalne tkanek miękkich, trudno gojące się rany, po naświetlaniu UV, przed zabiegami kinezyterapeutycznymi.
+- Parametry zabiegu:
+  * Naświetlanie miejscowe: odległość 30–60 cm od ciała, czas 10–15 min.
+  * Naświetlanie ogólne: odległość 100–120 cm, czas 20–30 min.
+  * Częstotliwość: codziennie.
+- Porażenie nerwu twarzowego (Sollux):
+  * W 1. okresie: filtr niebieski.
+  * W 2. okresie: filtr czerwony.
+  * Metodyka naświetlania twarzy: odległość 10–20 cm, czas 10–15 min, zabiegi codziennie, seria 10–20 zabiegów. Cel: poprawa trofiki tkanek.
+- Zasady metodyczne i BHP:
+  * Wygodna, stała pozycja pacjenta, okolica naświetlana odsłonięta.
+  * Twarz / góra klatki / okolice barku / szyi z przodu: obowiązkowe okulary ochronne.
+  * Skóra czysta, bez maści i innych zanieczyszczeń.
+  * Dawkę określamy subiektywnie (odczucie przyjemnego ciepła); pacjent musi zgłaszać wszelkie dolegliwości.
+  * Promieniowanie padające pod kątem 90° ma maksymalne natężenie.
+  * Zagrożenia: uszkodzenie wzroku, oparzenia cieplne (nierównomierne rozproszenie światła, nieprzestrzeganie BHP, zwiększona wrażliwość tkanek).
+- Kwalifikacja stanu: pytamy pacjenta, ile czasu minęło od urazu -> Stan ostry: do 3–4 dni po urazie, później przechodzi w stan podostry.
+
+
+================================================================================
+2. LASEROTERAPIA NISKOENERGETYCZNA (ĆW. 2)
+================================================================================
+Cechy promieniowania laserowego:
+1. Monochromatyczność (jednobarwność) – jedna długość fali w wiązce.
+2. Spójność (koherencja) – taka sama faza fal w przestrzeni i czasie.
+3. Równoległość (kolimacja) – mała rozbieżność promienia.
+4. Intensywność – cała moc zawarta w jednej wiązce.
+
+Działanie terapeutyczne:
+- Wzrost syntezy DNA i RNA.
+- Zwiększenie liczby mitochondriów – przyspieszenie procesów metabolicznych.
+- Zwiększenie zawartości wapnia i gęstości beleczek kostnych.
+- Zwiększenie odpływu limfy z miejsca objętego stanem zapalnym.
+- Wzrost aktywności oraz liczebności limfocytów T.
+- Wzrost poziomu endorfin.
+
+Reguła Arndta-Schultza:
+- Słabe bodźce podtrzymują procesy życiowe; średnie działają pobudzająco; silne bodźce hamują procesy życiowe lub wywołują reakcje paradoksalne; bardzo silne bodźce znoszą procesy życiowe.
+
+Podział laserów:
+- Wg mocy: małej mocy (1–6 mW), średniej mocy (7–500 mW), dużej mocy (>500 mW). W laserach niskoenergetycznych nie przekracza się 500 mW.
+- Wg długości fali: UV (<400 nm), światło widzialne (400–780 nm), podczerwień (>780 nm).
+
+Parametry zabiegowe (Sondy, Moc, Dawki, Częstotliwość):
+- Sonda czerwona (500–760 nm): płytka penetracja (skóra i śluzówki). Moc: 30–60 mW.
+- Sonda podczerwona IR (800–950 nm): głęboka penetracja (tkanki głębiej położone). Moc: 50, 100, 200, 300, 400, 500 mW.
+- Zależność: Im większa moc lasera, tym krótszy czas zabiegu.
+- Częstotliwość: 1–10 000 Hz (w stanach ostrych niższe częstotliwości; w przewlekłych wyższe, szczególnie do 5000 Hz, później faza ciągła – constans).
+- Dawki (gęstość energii w J/cm²):
+  * Stan ostry: 0,1–3 J/cm²
+  * Stan podostry: 3–6 J/cm²
+  * Stan przewlekły: 6–12 J/cm²
+  * Ogólna dawka energii nie powinna przekroczyć 200 J.
+  * U dzieci i osób w podeszłym wieku dawkę zmniejszamy o 30–60%.
+- Wzór na obliczanie dawkowanej gęstości energii: Ep = (P * t) / S
+
+Metody i techniki wykonania:
+- Bezkontaktowa: odległość sondy od ciała 5–10 mm.
+- Kontaktowa: bezpośredni kontakt sondy ze skórą (sonda odtłuszczona i zdezynfekowana, kąt padania 90° – zaletą jest ograniczenie strat energii).
+- Stabilna (punktowa): na punkty np. akupunkturowe / motoryczne.
+- Labilna: przemiatanie ręczne lub automatyczne (skaning) – część energii ulega odbiciu. W obu metodach skóra musi być sucha i czysta.
+
+BHP w pracowni laserowej:
+- Okulary ochronne z osłonkami bocznymi niezbędne dla każdego w pomieszczeniu (zdezynfekowane, np. ochrona przed świerzbem; nie nakładamy ich na okulary korekcyjne).
+- Wymogi pomieszczenia: ściany matowe, jasnego koloru, wydzielone i oznakowane pomieszczenie, znaki ostrzegawcze i informacja o laserze na drzwiach.
+- Zasady bezpieczeństwa: terapeuta nie może mieć na sobie metalowych ozdób; osoby pracujące z laserem obowiązują okresowe badania okulistyczne.
+
+Wskazania (Laseroterapia):
+- Ostry, podostry i przewlekły stan zapalny tkanek miękkich oraz stawów i tkanek okołostawowych.
+- Obrzęki, trudno gojące się rany, odleżyny, blizny.
+- Porażenie nerwu twarzowego.
+- Uszkodzenie tkanki kostnej (pęknięcie / złamanie).
+
+PRZECIWWSKAZANIA (Laseroterapia):
+- Choroba nowotworowa.
+- Ciąża.
+- Nadczynność tarczycy.
+- Naświetlanie gałek ocznych.
+- Gorączka.
+- Stosowanie leków sterydowych (grozi odbarwieniami i reakcjami niepożądanymi).
+- Ostre choroby bakteryjne, wirusowe i grzybicze.
+
+
+================================================================================
+3. ŚWIATŁO SPOLARYZOWANE
+================================================================================
+Charakterystyka:
+- Światło polichromatyczne o szerokim zakresie długości fali: 480–3400 nm (światło widzialne + część podczerwieni, bez promieniowania UV).
+- Jest NIEKOHERENTNE (niezsynchronizowane) i posiada niską gęstość energii – działanie biostymulujące (łagodne, bezpieczne).
+- Efekty: odnowa komórek, poprawa krążenia, wzmocnienie pracy komórek odpornościowych.
+
+Metodyka:
+- Skóra oczyszczona, strumień padający pod kątem 90° do pola zabiegowego.
+- Odległość lampy od ciała: 10 cm.
+- Duże powierzchnie naświetlamy punkt po punkcie aż do pokrycia całości.
+- Częstotliwość i czas: 1–2 razy dziennie, czas 4–10 min.
+
+Wskazania:
+- Bliznowce, rany pooperacyjne, odleżyny, oparzenia, odmrożenia, dermatozy, półpasiec, opryszczka, starzenie się skóry.
+- Ból kręgosłupa, dyskopatia, zapalenie korzeni nerwowych, bóle neuralgiczne i mięśniowe, choroby stawów.
+- Depresja, cukrzyca, choroba Buergera, żylaki.
+
+PRZECIWWSKAZANIA (Światło spolaryzowane):
+- Gorączka.
+- Choroba nowotworowa.
+
+
+================================================================================
+4. KRIOTERAPIA (MIEJSCOWA I OGÓLNA)
+================================================================================
+Fizjologia zimna:
+- Efekt naczyniowy: początkowy skurcz naczyń skóry i tkanki podskórnej -> przemieszczenie krwi do głębszych struktur -> następnie miejscowe przekrwienie czynne oziębionej okolicy.
+- Skutki ogólne: zwolnienie i pogłębienie oddechu, zwiększenie przemiany materii, wzmożenie czynności nerek, zahamowanie wydzielania potu, zmniejszenie obrzęków i stanu zapalnego, wydzielanie endorfin i hormonów.
+
+Wskazania (Krioterapia):
+- Stany po urazach i przeciążeniach (do 5 dni po urazie), złamania, skręcenia, zwichnięcia oraz towarzyszące im obrzęki.
+- Oparzenia.
+- Dyskopatie, stwardnienie rozsiane (SM), stany wzmożonego napięcia mięśniowego.
+- Nerwobóle nerwów obwodowych.
+- Stany bólowe w chorobie zwyrodnieniowej, artropatia łuszczycowa, reumatoidalne zapalenie stawów (RZS).
+
+PRZECIWWSKAZANIA (Krioterapia):
+- Nadwrażliwość na zimno.
+- Choroby wywoływane przez zimno (np. zespół Raynauda).
+- Zespół Sudecka.
+- Zmiany skórne popromienne, uszkodzenia skóry, odmrożenia.
+- Nadczynność tarczycy.
+- Miażdżyca zaawansowana.
+- Zapalenie pęcherza moczowego / zapalenie miedniczek nerkowych.
+- Stany ogólnego wyniszczenia / osłabienia.
+- Dla krioterapii ogólnej (kriokomory) dodatkowo BEZWZGLĘDNE PRZECIWWSKAZANIE: wysokie / nieustabilizowane ciśnienie tętnicze krwi.
+
+Metodyka zabiegów miejscowych:
+1. Zimna woda: polewanie wodą o temp. 15–20°C (ostre stany zapalne, użądlenia), czas 3–5 min.
+2. Lód:
+   - Woreczki z lodem: zawsze na bawełnianym podkładzie! Czas: od 1 min do rozpuszczenia lodu.
+   - Częściowa kąpiel w wodzie z lodem: czas 1–3 min (wielokrotne zanurzanie).
+   - Masaż lodem: zamrożona woda w pojemniku plastikowym, czas 3–5 min.
+   - Kompresy żelowe typu Coldpack.
+3. Nawiew parami ciekłego azotu (temp. -100°C do -180°C, suche zimno – świetne w RZS):
+   - Odległość dyszy: 10–15 cm od ciała, ciągłe ruchy okrężne/omiatające (nie wolno zatrzymywać dyszy w jednym miejscu).
+   - Czas: 30 s – 3 min (schładzanie samych stawów: 3 min; łączny czas przy kilku okolicach max 12 min).
+4. Nawiew zimnym powietrzem (temp. gazu -30°C, wilgotne zimno):
+   - Odległość dyszy: 5–20 cm, ciągły ruch dyszą, czas nieco dłuższy niż przy azocie.
+5. Nawiew ciekłym CO2 (temp. wylotu dyszy -70°C): zasady wykonania analogiczne jak przy azocie/powietrzu.
+- Zasady ogólne i zagrożenia w krioterapii miejscowej:
+  * Nie wykonujemy u pacjenta zziębniętego; w gabinecie temperatura pokojowa; wygodna pozycja.
+  * Unikamy miejsc leżących bezpośrednio nad wystającymi elementami kostnymi.
+  * NATYCHMIAST PRZERYWAMY ZABIEG, gdy pojawi się: zblednięcie skóry, silne plamy, objaw „pomarańczowej skórki”, zaszronienie skóry, skargi na ból/pieczenie.
+
+Krioterapia całego ciała (ogólna – kriosauna / kriokomora):
+- Maksymalne obniżenie temp. do -176°C; zakres leczniczy: -70°C do -110°C.
+- Kwalifikacja lekarska przed wejściem.
+- Wymagany ubiór ochronny: obudowane obuwie (trepy), strój bawełniany, podkolanówki/skarpetki, czapka lub opaska na uszy, rękawice, maska zasłaniająca drogi oddechowe.
+- W komorze zawsze towarzyszy obsługa; pacjenci są w ciągłym ruchu.
+- Obowiązkowe postępowanie pozabiegowe: 30 min (1/2 h) ćwiczeń na sali gimnastycznej (kinezyterapia).
+
+
+================================================================================
+5. CIEPŁOLECZNICTWO
+================================================================================
+Podział zabiegów:
+- Ciepło suche: ogrzane suche powietrze (suszarka, grzałka elektryczna, termofor).
+- Ciepło wilgotne: para wodna (sauna, wapozon).
+- Zabiegi cieplne: parafina, maski rozgrzewające, fango, parafango, gorący piasek.
+- Drogi wymiany ciepła: promieniowanie (60%), parowanie (35%), przewodzenie/kondukcja (12%), przenoszenie/konwekcja (12%). W wodzie: przewodzenie i przenoszenie.
+
+Wpływ ciepła na organizm:
+- Poprawa ukrwienia (przepływ krwi i chłonki) i trofiki tkanek.
+- Działanie przeciwzapalne i przeciwbólowe.
+- Poprawa rozciągliwości tkanki łącznej kolagenowej i lepkości mazi stawowej (wzrost ruchomości stawów).
+- Działanie rozluźniające na mięśnie, poprawa resorpcji, przyspieszenie usuwania produktów przemiany materii, wzmożenie czynności gruczołów potowych i łojowych.
+- Reakcja naczyń dużych powierzchni zgodna z prawem Dastre-Morata (naczynia nerek, śledziony i mózgu reagują tak jak naczynia skóry).
+
+Wskazania (Ciepłolecznictwo):
+- Choroby narządu ruchu (RZS w okresie przewlekłym, zmiany zwyrodnieniowe stawów, stany pourazowe).
+- Choroby układu nerwowego (rwa kulszowa, rwa ramienna, po ustąpieniu okresu ostrego zapalenia nerwów obwodowych).
+- Choroby układu oddechowego (nieżyt gardła, oskrzeli, krtani), trawiennego (przewlekłe zapalenie pęcherzyka żółciowego, spastyczne zapalenie jelita grubego), dróg moczowych (kamica nerkowa, przewlekłe zapalenia).
+- Przewlekłe stany zapalne narządów rodnych, dna moczanowa, otyłość, trądzik, czyraczność.
+
+PRZECIWWSKAZANIA (Ciepłolecznictwo):
+- Ostre stany zapalne, obrzęki niezależnie od etiologii.
+- Niewydolność krążenia, stany pozawałowe, choroba nadciśnieniowa, rozszerzone naczynka.
+- Gruźlica, ciąża, nadczynność tarczycy, choroby psychiczne.
+- Uczulenie na ciepło.
+- Wyniszczenie lub osłabienie organizmu, wiek starczy.
+- Choroba wrzodowa dróg pokarmowych.
+
+Metodyka poszczególnych zabiegów cieplnych:
+1. Termofor: napełniamy gorącą wodą do 2/3 objętości, usuwamy powietrze znad wody, szczelnie zakręcamy, kontrolujemy temp. przykładając do policzka, przykrywamy okolicę suchym bawełnianym ręcznikiem, a całość wełnianą tkaniną.
+2. Gorący piasek:
+   - Miejscowo: piasek wydezynfekowany w 100°C, do zabiegu podgrzany do 40–46°C, w woreczku na pole zabiegowe.
+   - Całkowite kąpiele piaskowe: wanny drewniane lub z tworzywa, temp. 40–45°C, zanurzenie do wysokości łuków żebrowych (duża siła działania – tylko zdrowe serce i układ krążenia!).
+3. Zabiegi parafinowe:
+   - Parafina biała (temp. topnienia 40–50°C, wrzenia 250°C) + parafina płynna (20–40 g na 1 kg parafiny stałej).
+   - Temperatura parafiny zabiegowej: na kończyny 53–54°C; na tułów/ciało max 60°C; na twarz <45°C.
+   - Przygotowanie: skóra umyta, osuszona, owłosione miejsca posmarowane wazeliną, obowiązkowe badanie czucia.
+   - Częściowe kąpiele (ręce/stopy): temp. ok. 53°C, czas 30–40 min, pacjent cały czas porusza kończyną.
+   - Okłady parafinowe (barki, plecy, kolana, łokcie): nakładamy pędzlem cienkie warstwy parafiny (60°C) do grubości 1–2 cm, okrywamy ceratą i suchą flanelą, czas 30 min.
+   - Rękawiczki / skarpety parafinowe: zanurzanie dłoni/stopy w parafinie (54°C) na 0,5–1 s wielokrotnie aż do grubości 2 cm, owinięcie ceratą, flanelą i wełną, czas 30 min.
+   - Zawijania parafinowe (bark, łokieć, kolano, dłoń, stopa): warstwa ochronna pędzlem, następnie 2–3 warstwy gazy (12x50 cm) nasączonej parafiną, ceratka + flanela, czas 20–30 min.
+   - Maseczki parafinowe (porażenie nerwu twarzowego): grubą warstwą gazy zabezpieczamy oczy i uszy, twarz okładamy gazą, na to parafina o temp. <45°C.
+4. Fango (szlam wulkaniczny) i Parafango (mieszanka parafiny i sproszkowanego fango): okłady częściowe lub kąpiele.
+5. Sauna: temp. przy posadzce 40°C, poziom I (40–50°C), poziom II (60°C), poziom III (70–80°C). Przygotowanie (ok. 10 min): opróżnić pęcherz, umyć ciało pod natryskiem i dokładnie osuszyć przed wejściem.
+
+
+================================================================================
+6. SONOTERAPIA – ULTRADŹWIĘKI I ULTRAFONOFOREZA
+================================================================================
+Charakterystyka fizyczna i biofizyczna:
+- Drgania mechaniczne o częstotliwości powyżej 20 kHz (niesłyszalne dla człowieka; zakres słyszalny to 16 Hz – 20 kHz).
+- Prawo Grotthusa-Drapera: reakcja występuje tylko wtedy, gdy energia zostanie pochłonięta w dostatecznej ilości.
+- Absorpcja: najsilniej pochłania tkanka kostna, najsłabiej tkanki miękkie (najmniej tkanka tłuszczowa).
+- Zmiany pierwotne (miejscowe):
+  1. Mechaniczne (mikromasaż – wahania ciśnień, podwyższenie progu bólu).
+  2. Termiczne (najmocniej przegrzewa się tkanka nerwowa, słabiej mięśniowa, najsłabiej skóra; silny wzrost temp. na granicy tkanek np. mięsień–kość; przy 4 W/cm² po 30 s temp. wzrasta o 5–6°C – przegrzanie ograniczamy ruchem głowicy i trybem impulsowym).
+  3. Fizykochemiczne (przemiana żelu w zol, wzrost dyfuzji i metabolizmu).
+- Zmiany wtórne (ogólne – przy nadźwiękawianiu splotów, zwojów i korzeni nerwowych): działanie przeciwbólowe, spadek napięcia mięśni, rozszerzenie naczyń, hamowanie układu współczulnego, działanie przeciwzapalne.
+
+Parametry zabiegowe (Ultradźwięki):
+- Częstotliwość fali:
+  * 1 MHz – głęboka penetracja tkanek.
+  * 3 MHz – płytka penetracja tkanek.
+- Natężenie fali (W/cm²):
+  * Wg A. Bauera i M. Wiecheć: słabe 0,05–0,4 W/cm² | średnie 0,5–0,7 W/cm² | silne 0,8–1,2 W/cm².
+  * Wg T. Miki i W. Kasprzaka: słabe 0,05–0,5 W/cm² | średnie 0,5–1,5 W/cm² | silne 1,5–2,0 W/cm².
+  * W praktyce stosuje się niemal wyłącznie natężenia słabe i średnie.
+- Współczynnik wypełnienia impulsu:
+  * Tryb ciągły (100% / 1:1) – głębokie przegrzanie tkanek.
+  * Tryb impulsowy 1:2 (50%) oraz 1:4 (25%) – delikatny efekt termiczny.
+  * Tryb impulsowy 1:8 (12,5%) oraz 1:16 (6,25%) – brak efektu cieplnego.
+- Czas trwania zabiegu:
+  * Krótki: 1–3 min | Średni: 4–9 min | Długi: 10–15 min.
+  * Nadźwiękawianie segmentarne: 2 min.
+  * Metoda stabilna: max 5 min.
+- Liczba i częstotliwość zabiegów w serii:
+  * Stany przewlekłe: zazwyczaj 10 zabiegów, przerwa 1–2 dni.
+  * Stany ostre: 6 lub mniej zabiegów, wykonywane codziennie (np. urazy, przykurcze).
+- Środki sprzęgające: żel, olej parafinowy, wazelina, woda (zapobiegają odbiciu fali).
+
+Metody i techniki prowadzenia głowicy:
+- Metoda lokalna: bezpośrednio w miejscu zmian chorobowych.
+- Metoda segmentarna: okolica przykręgosłupowa odpowiednich korzeni nerwowych (2 min).
+- Schemat neuroterapeutyczny odgłowowy: głowica od kości krzyżowej lub wyrostka kolczystego Th8 w stronę kręgu C3 + mięśnie karku (przestrojenie zwoju gwiaździstego) lub zewnętrzny brzeg m. najszerszego grzbietu. Natężenie: 0,1–0,2 W/cm².
+- Schemat neuroterapeutyczny odogonowy: od dolnej krawędzi kości krzyżowej wzdłuż zewnętrznego brzegu stawu krzyżowo-biodrowego, poniżej grzebienia miednicy, ew. grzbietowa strona pasma biodrowo-piszczelowego (1/3 bliższa) i okolica krętarza + wzdłuż kręgosłupa od grzebienia biodrowego do Th8. Obszar przykręgosłupowy = min. połowa czasu zabiegu.
+- Technika stabilna (punktowa – zwoje nerwowe, złogi wapniowe): czas max 5 min, natężenie max 0,4–0,5 W/cm², WYŁĄCZNIE tryb impulsowy.
+- Technika labilna (ruchoma):
+  * Aplikacja podłużna: 3 pasy o szerokości głowicy i długości 10–12 cm; czas 1 pasa = ok. 30 s.
+  * Ruch okrężny: 1 pełne okrążenie trwa 2–3 s. Nacisk głowicy niewielki.
+
+Zasady szczegółowe dla tkanek i okolic (UD):
+- Skóra i blizny: obszar zabiegowy musi być maksymalnie rozciągnięty; natężenie 0,1–0,2 W/cm² (w notatkach zapis: 1–0,2 W/cm² – dawkujemy słabo).
+- Tkanka mięśniowa: wzdłuż przebiegu włókien, w przegrodach, na przejściu brzuśca w ścięgno i przyczepach; mięśnie pacjenta muszą być rozluźnione.
+- Kości i stawy: zmieniamy ułożenie stawu dla lepszego wnikania fali; przy leczeniu przykurczów staw ustawiamy w pozycji maksymalnego rozciągnięcia.
+- Okolica przykręgosłupowa: prowadzimy głowicę 2 cm od linii wyrostków kolczystych; zabieg ograniczamy do wysokości kręgu C3 (nie przekraczamy C3 ze względu na rdzeń przedłużony!).
+- Przygotowanie pola: wcześniejsze ogrzanie (parafina, IR) powoduje powierzchowne przekrwienie -> płytsze pochłanianie UD; wcześniejsze schłodzenie -> głębsze przekrwienie -> głębsza penetracja UD.
+- Ultrafonoforeza (wprowadzanie leków przez skórę za pomocą UD): głębokość penetracji leku zależy od CZASU zabiegu, a nie od natężenia; ZAKAZ stosowania maści (grozi oparzeniem!).
+- Zabiegi w środowisku wodnym (ręce, stopy, przykurcze stawu łokciowego): woda odgazowana o temp. 37°C, naczynie plastikowe lub porcelanowe (unikamy fali stojącej), w pełni szczelna głowica, jednakowa odległość od ścianek i dna naczynia.
+- Zasady BHP: zakaz samodzielnej aplikacji przez pacjenta, nieprzerwane poruszanie głowicą, po zabiegu osuszenie skóry i odkażenie głowicy.
+
+Wskazania (Ultradźwięki):
+- Choroba zwyrodnieniowa kręgosłupa i stawów, zespoły bólowe (rwa), bóle poamputacyjne.
+- Zmiany zapalno-zwyrodnieniowe (np. ostroga piętowa), nerwobóle.
+- Przykurcz Dupuytrena, blizny, przykurcze stawowe.
+
+PRZECIWWSKAZANIA (Ultradźwięki):
+- Nowotwory.
+- Ostre stany zapalne przebiegające z gorączką.
+- Zaawansowane zwapnienie naczyń, zakrzepowe zapalenie żył, żylaki, zakrzepica, zaburzenia krzepnięcia krwi.
+- Wyniszczenie organizmu.
+- Wszczepiony rozrusznik serca, niewydolność krążenia, zaburzenia rytmu serca.
+- Metalowe implanty w polu zabiegowym.
+- Okolica nasad kości u dzieci.
+- Ciąża.
+- Zaawansowana osteoporoza.
+- Nerwica wegetatywna.
+- Przerwanie ciągłości tkanki w miejscu zabiegu.
+
+
+================================================================================
+7. POLE MAGNETYCZNE – MAGNETOTERAPIA I MAGNETOSTYMULACJA
+================================================================================
+
+A. MAGNETOTERAPIA (Pulsujące pole magnetyczne małej częstotliwości)
+Charakterystyka fizyczna:
+- Częstotliwość: < 100 Hz (w praktyce 0–50 lub 60 Hz).
+- Indukcja magnetyczna: 0,1–10 mT (1 Gaus = 0,1 mT = 0,0001 T; jednostka: Tesla [T]).
+- Kształt przebiegów: sinusoida, trójkąt, prostokąt oraz przebiegi połówkowe (półsinusoidalne, półtrójkątne, półprostokątne).
+
+Działanie biologiczne:
+- Pole magnetyczne w całości przenika przez ciało człowieka.
+- Rytmiczne przemieszczanie jonów w komórkach -> hiperpolaryzacja błony komórkowej, normalizacja potencjału spoczynkowego, poprawa utylizacji tlenu i wzrost syntezy ATP.
+- Efekty biologiczne:
+  * Przyspieszenie regeneracji tkankowej, pobudzenie osteogenezy (zrost kostny) i angiogenezy.
+  * Działanie wazodilatacyjne (rozszerzenie naczyń -> spadek ciśnienia tętniczego).
+  * Zmiana właściwości reologicznych krwi, przewodności i aktywności enzymów.
+  * Działanie analgetyczne (przeciwbólowe) i przeciwzapalne.
+- Zalety: metoda nietermiczna (można stosować w stanie ostrym!), zabiegi można wykonywać przez gips, bandaż, odzież, przy implantach nieelektronicznych (metalowych) oraz u dzieci.
+
+Zasady doboru parametrów (Magnetoterapia):
+1. Kształt impulsów:
+   - Prostokątny: proces chorobowy dotyczy kości (złamania, osteoporoza).
+   - Trójkątny: chrząstka stawowa, ścięgna, więzadła.
+   - Sinusoidalny: tkanka nerwowa i mięśniowa (niektórzy autorzy zalecają wyłącznie impulsy sinusoidalne).
+2. Częstotliwość:
+   - Stan ostry: 1–5 Hz
+   - Stan podostry: 5–20 Hz
+   - Stan przewlekły: 20–50 Hz
+3. Wartość indukcji magnetycznej:
+   - Stan ostry: 0,5–3 mT (5–30 Gs)
+   - Stan podostry: 3–5 mT (30–50 Gs)
+   - Stan przewlekły: 6–10 mT (60–100 Gs)
+   - Dawkowanie progresywne w serii: 1. zabieg = 40% przyjętej dawki, 2. zabieg = 70% dawki, od 3. zabiegu = 100% pełnej dawki.
+4. Rodzaj aplikatora (Solenoidy) i zależność indukcji od średnicy:
+   - Średnica 500 mm (tułów): 100% indukcji = 2,5 mT (25 Gs).
+   - Średnica 315 mm (kończyny dolne – KKD): 100% indukcji = 5,0 mT (50 Gs).
+   - Średnica 200 mm (kończyny górne – KKG): 100% indukcji = 10 mT (100 Gs).
+   - Aplikatory dyskowe: pole wytwarzane jest lokalnie (nie działa na tkanki poza polem ani na terapeutę).
+5. Przerwa – puls: tryb impulsowy lub ciągły; zabiegi rozpoczynamy od przerwy 3 s i stopniowo skracamy do 0,5 s.
+6. Czas i seria: czas zabiegu 15–30 min; seria do 15 zabiegów (pierwsze 5–10 zabiegów codziennie, następnie co 2–3 dni).
+
+Zasady wykonywania zabiegu (Magnetoterapia):
+- Wykonywać o tej samej porze dnia; unikać godzin wieczornych (może powodować bezsenność, zwłaszcza u osób starszych).
+- Pacjent musi zdjąć/odłożyć przedmioty metalowe, zegarek, telefon komórkowy, aparat słuchowy.
+- Zabieg można wykonywać przez ubranie (najlepiej bawełniane).
+- Przed zabiegiem sprawdzamy sprawność aparatu wkładając do cewki magnes (po włączeniu muszą pojawić się drgania magnesu).
+
+Wskazania (Magnetoterapia):
+- Choroba zwyrodnieniowa stawów kończyn i kręgosłupa, zapalenie stawów i tkanek okołostawowych.
+- Pourazowe choroby narządu ruchu (złamania, zwichnięcia, skręcenia), osteoporoza.
+- Utrudnione gojenie ran, owrzodzenia troficzne, zaburzenia krążenia obwodowego.
+- Stany zapalne nerwów, zaburzenia przemiany materii, zapalenie oskrzeli i zatok obocznych nosa.
+
+PRZECIWWSKAZANIA (Magnetoterapia):
+- Ciąża.
+- Choroba nowotworowa.
+- Elektroniczne implanty (np. rozrusznik serca).
+- Czynna gruźlica.
+- Ostre infekcje bakteryjne i wirusowe, grzybica.
+- Zarostowo-zakrzepowe zapalenie żył.
+- Skłonność do krwawień.
+- Gorączka.
+- Ciężkie choroby serca i układu krążenia.
+
+
+B. MAGNETOSTYMULACJA (np. system Viofor JPS)
+Charakterystyka fizyczna i działanie:
+- Pola magnetyczne o bardzo niskich wartościach indukcji: < 100 µT (mikrotesli).
+- Częstotliwość: od kilku do 3000 Hz (przebiegi o wyższej częstotliwości są modulowane).
+- Kluczowy parametr: stosunek indukcji do częstotliwości.
+- Mechanizm: wzbudza siły elektromotoryczne utrzymujące homeostazę i wywołuje zmiany zbliżone do aktywności fizycznej (wspomaganie odnowy biologicznej).
+- Efekty biologiczne: analgetyczne, regeneracyjne, restytucyjne, przeciwzapalne, antyspastyczne, wazodilatacyjne, stabilizujące błony komórkowe, relaksacyjne, angiogenetyczne.
+
+Zasady doboru parametrów (Magnetostymulacja):
+- Czas zabiegu (ustawiony fabrycznie): 8, 10 lub 12 min.
+- Dobór Programu (P):
+  * P1 – dla osób nadwrażliwych na zmienne pole magnetyczne.
+  * P2 – podstawowy program terapeutyczny.
+  * P3 – w przypadku słabych efektów (niska wrażliwość pacjenta na zabieg).
+- Dobór sposobu aplikacji (M) i Intensywności (I):
+  * 1. tydzień: M2, intensywność (I) do 6.
+  * 2. tydzień: M3, intensywność (I) do 9.
+  * 3. tydzień: M1, intensywność (I) do 12.
+- Rodzaje aplikatorów:
+  * Całe ciało (schorzenia ogólnoustrojowe): aplikator kliniczny, mata.
+  * Wybrane części ciała: aplikatory pierścieniowe, eliptyczne, poduszka.
+
+Wskazania (Magnetostymulacja):
+- Przeciwbólowe: bóle migrenowe, zmiany zwyrodnieniowe kręgosłupa i stawów, urazy stawów.
+- Regeneracyjne: odleżyny, oparzenia, stawy rzekome.
+- Poprawa krążenia obwodowego: angiopatia cukrzycowa, przyspieszenie wchłaniania krwiaków, owrzodzenia podudzi.
+- Antyspastyczne: stany po udarach mózgu, choroby zwyrodnieniowe układu nerwowego ze spastycznością.
+- Relaksacyjne: nerwice, zaburzenia koncentracji, zaburzenia snu.
+- Restytucja powysiłkowa: po treningu sportowym, odnowa biologiczna.
+- Stomatologia: zmiany okołowierzchołkowe, uszkodzenia nerwu po znieczuleniu, powikłania po zabiegach chirurgicznych.
+
+PRZECIWWSKAZANIA (Magnetostymulacja):
+- Ciąża.
+- Choroba nowotworowa.
+- Nadczynność tarczycy.
+- Krwawienia z przewodu pokarmowego.
+- Stany po przeszczepach narządów.
+- Implanty elektroniczne.
+- Infekcje pochodzenia wirusowego, bakteryjnego, grzybiczego.
+```
+
+### Wskazówka do użycia w Cursor AI:
+Wrzuć wygenerowany plik `baza_fizykoterapia.txt` do swojego projektu w Cursorze i pamiętaj, żeby w prompcie dopisać na liście zabiegów również **7. Magnetoterapię (solenoidy 500/315/200 mm, mT/Gs, Hz, kształt impulsu prostokąt/trójkąt/sinus, 40%/70%/100% dawki)** oraz **8. Magnetostymulację (programy P1/P2/P3, aplikacje M1/M2/M3, intensywność I 1–12, czas 8/10/12 min)**, wskazując Cursorowi plik `@baza_fizykoterapia.txt` jako jedyne źródło parametrów i przeciwwskazań.

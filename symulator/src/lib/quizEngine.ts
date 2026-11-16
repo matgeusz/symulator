@@ -86,13 +86,13 @@ function stemHit(tokens: string[], stem: string, allowFuzzy = true): 0 | 1 | 2 {
   const L = stem.length
   if (L <= 3) return tokens.some((t) => t.startsWith(stem) && t.length <= L + 3) ? 2 : 0
   if (tokens.some((t) => t.startsWith(stem))) return 2
-  if (!allowFuzzy || L < 5) return 0
+  if (!allowFuzzy || L < 6) return 0
   const maxd = L >= 11 ? 2 : 1
   for (const t of tokens) {
     if (t.length < L - 1) continue
     for (const len of [L - 1, L, L + 1]) {
       if (t.length < len) continue
-      if (editDistance(t.slice(0, len), stem, maxd) <= maxd) return 1
+      if (t[0] === stem[0] && editDistance(t.slice(0, len), stem, maxd) <= maxd) return 1
     }
   }
   return 0

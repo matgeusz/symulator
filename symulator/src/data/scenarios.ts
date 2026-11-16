@@ -62,7 +62,10 @@ export const MODALITIES_DB: Record<string, ModalityData> = {
       'Prawo Grotthusa-Drapera: skutki biologiczne w tkankach wywołuje tylko energia pochłoniętego promieniowania.',
       'Prawo Dastre-Morata: bodźce termiczne działające na dużą powierzchnię skóry (≥50%) powodują przeciwne do naczyń skóry zachowanie dużych naczyń klatki piersiowej i jamy brzusznej (nerki, śledziona, mózg reagują tak samo jak skóra).',
       'Rumień cieplny: pojawia się w trakcie naświetlania, narasta z czasem, jest nierównomierny i plamisty (rozszerzenie głębszych naczyń), znika po 1–2 godzinach.',
-      'Im krótsza fala, tym głębsza penetracja (krótkofalowe 770–1500 nm do 10 mm; długofalowe 4000–15000 nm od 0,5 do 3 mm).'
+      'Im krótsza fala, tym głębsza penetracja (krótkofalowe 770–1500 nm do 10 mm; długofalowe 4000–15000 nm od 0,5 do 3 mm). Im wyższa temperatura źródła, tym krótsza fala.',
+      'Efekty miejscowe: rozszerzenie naczyń włosowatych, obniżenie napięcia mięśni, podwyższenie progu bólu, pobudzenie receptorów cieplnych skóry i reakcje odruchowe w narządach wewnętrznych. Na odczyn wpływają: intensywność źródła, czas, wielkość powierzchni, tolerancja miejscowa i osobnicza.',
+      'Odczyny ogólne (IR na dużą powierzchnię skóry): przyspieszone tętno, wzrost ciepłoty ciała, przejściowa utrata masy (pocenie), usprawnienie obiegu krwi, obniżenie napięcia mięśni, przyspieszenie oddechu; przy przegrzaniu spada czynność nerek.',
+      'Generatory: nieświetlne (długo- i średniofalowe) oraz świetlne – żarówki węglowe (do 70 W, promień długofalowy) i wolframowe (200–1500 W, promień krótkofalowy, np. lampa Sollux).'
     ],
     parameters: [
       { label: 'Zakres długości fali IR', values: '770 – 15 000 nm (żarówki wolframowe 200–1500 W – promień krótkofalowy; węglowe do 70 W – długofalowy)' },
@@ -71,13 +74,17 @@ export const MODALITIES_DB: Record<string, ModalityData> = {
       { label: 'Odległość i czas – miejscowo', values: '30 – 60 cm od ciała, czas 10 – 15 min (codziennie)' },
       { label: 'Odległość i czas – ogólnie', values: '100 – 120 cm od ciała, czas 20 – 30 min (codziennie)' },
       { label: 'Odległość i czas – twarz (porażenie n. VII)', values: '10 – 20 cm od ciała, czas 10 – 15 min, codziennie, seria 10 – 20 zabiegów' },
-      { label: 'Kąt padania', values: '90° w stosunku do pola zabiegowego (maksymalne natężenie)' }
+      { label: 'Kąt padania', values: '90° w stosunku do pola zabiegowego (maksymalne natężenie)' },
+      { label: 'Faza procesu chorobowego', values: 'Stan ostry (do 3–4 dni po urazie) = ostry stan zapalny – PRZECIWWSKAZANIE (wyjątek: I okres porażenia n. VII – filtr niebieski). Stan podostry (po 3–4 dniach) i przewlekły – naświetlanie wskazane: filtr czerwony w przewlekłych stanach zapalnych, niebieski przy bólu, przeczulicy, odmrożeniach. Dawka zawsze subiektywna (przyjemne ciepło).' },
+      { label: 'Zagrożenia', values: 'Uszkodzenie wzroku oraz oparzenia cieplne (nierównomierne rozproszenie światła, nieprzestrzeganie BHP, zwiększona wrażliwość tkanek)' }
     ],
     methodology: [
       'Wygodna, stała pozycja pacjenta, okolica naświetlana całkowicie odsłonięta.',
       'Skóra czysta, bez maści i zanieczyszczeń.',
       'Obowiązkowe okulary ochronne przy naświetlaniu twarzy, górnej części klatki piersiowej, barku i szyi z przodu.',
-      'Dawkę określamy subiektywnie (odczucie przyjemnego ciepła); pacjent musi zgłaszać wszelkie dolegliwości (ryzyko oparzeń cieplnych i uszkodzenia wzroku).'
+      'Dawkę określamy subiektywnie (odczucie przyjemnego ciepła); pacjent musi zgłaszać wszelkie dolegliwości (ryzyko oparzeń cieplnych i uszkodzenia wzroku).',
+      'Kwalifikacja stanu: pytamy pacjenta, ile czasu minęło od urazu – stan ostry trwa do 3–4 dni, później przechodzi w podostry.',
+      'Porażenie nerwu twarzowego: w I okresie filtr niebieski, w II okresie filtr czerwony; odległość 10–20 cm, 10–15 min codziennie, seria 10–20 zabiegów (poprawa trofiki tkanek).'
     ],
     indications: [
       'Przewlekłe stany zapalne zatok, stawów, tkanek okołostawowych i tkanek miękkich',
@@ -115,7 +122,8 @@ export const MODALITIES_DB: Record<string, ModalityData> = {
       { label: 'Dawka – stan przewlekły', values: '6 – 12 J/cm²' },
       { label: 'Limit dawki i modyfikacja wiekowa', values: 'Ogólna dawka jednorazowa max 200 J. U dzieci i osób w podeszłym wieku dawkę zmniejszamy o 30 – 60%!' },
       { label: 'Częstotliwość impulsów', values: '1 – 10 000 Hz (w stanach ostrych niższe częstotliwości; w przewlekłych wyższe, szczególnie do 5000 Hz, lub fala ciągła – constans)' },
-      { label: 'Wzór na energię / czas', values: 'Ep = (P × t) / S (im większa moc P, tym krótszy czas zabiegu t)' }
+      { label: 'Wzór na energię / czas', values: 'Ep = (P × t) / S (im większa moc P, tym krótszy czas zabiegu t)' },
+      { label: 'Podział laserów', values: 'Wg mocy: małej mocy 1–6 mW, średniej mocy 7–500 mW, dużej mocy >500 mW (LLLT nie przekracza 500 mW). Wg długości fali: UV (<400 nm), światło widzialne (400–780 nm), podczerwień (>780 nm).' }
     ],
     methodology: [
       'Metoda kontaktowa (bezpośredni dotyk odtłuszczoną i zdezynfekowaną sondą pod kątem 90° – ogranicza straty energii) lub bezkontaktowa (odległość 5–10 mm od skóry).',
@@ -151,7 +159,9 @@ export const MODALITIES_DB: Record<string, ModalityData> = {
     parameters: [
       { label: 'Zakres widma', values: '480 – 3400 nm (brak promieniowania UV)' },
       { label: 'Odległość i kąt padania', values: '10 cm od ciała, strumień prostopadle (90°) do pola zabiegowego' },
-      { label: 'Czas i częstotliwość', values: '4 – 10 min na punkt, 1x lub 2x dziennie (duże powierzchnie naświetlamy punkt po punkcie)' }
+      { label: 'Czas i częstotliwość', values: '4 – 10 min na punkt, 1x lub 2x dziennie (duże powierzchnie naświetlamy punkt po punkcie)' },
+      { label: 'Faza procesu chorobowego', values: 'Metoda łagodna (biostymulacja, niska gęstość energii) – w bazie bez ograniczeń fazowych; jedyne przeciwwskazania to gorączka i choroba nowotworowa. Stosowana w stanach po urazach i operacjach (rany pooperacyjne, blizny) oraz w dolegliwościach przewlekłych (kręgosłup, stawy).' },
+      { label: 'Efekty biologiczne', values: 'Odnowa komórek, poprawa mikrokrążenia i krążenia, wzmocnienie pracy komórek odpornościowych' }
     ],
     methodology: [
       'Skóra dokładnie oczyszczona.',
@@ -159,7 +169,7 @@ export const MODALITIES_DB: Record<string, ModalityData> = {
       'Przy dużych obszarach opracowujemy pole punkt po punkcie aż do pokrycia całej powierzchni.'
     ],
     indications: [
-      'Bliznowce, rany pooperacyjne, oparzenia, odmrożenia, odleżyny, dermatozy, opryszczka, półpasiec',
+      'Bliznowce, rany pooperacyjne, oparzenia, odmrożenia, odleżyny, dermatozy, opryszczka, półpasiec, starzenie się skóry',
       'Ból kręgosłupa, dyskopatia, zapalenie korzeni nerwowych, bóle neuralgiczne i mięśniowe',
       'Choroby stawów, choroba Buergera, żylaki, stopa cukrzycowa, depresja sezonowa'
     ],
@@ -181,8 +191,9 @@ export const MODALITIES_DB: Record<string, ModalityData> = {
       { label: 'Ciekły azot (suche zimno – świetne w RZS)', values: 'Temp. par (-100°C do -180°C), odległość dyszy 10–15 cm, ruchy okrężne/omiatające, czas 30 s – 3 min (stawy 3 min; max 12 min łącznie przy kilku okolicach)' },
       { label: 'Nawiew zimnym powietrzem (wilgotne zimno)', values: 'Temp. gazu -30°C, odległość dyszy 5–20 cm, ciągły ruch dyszą, czas nieco dłuższy niż przy azocie' },
       { label: 'Ciekły CO2', values: 'Temp. wylotu dyszy -70°C, ruch dynamiczny dyszą' },
-      { label: 'Zabiegi z lodem i zimną wodą', values: 'Woreczki z lodem na bawełnianym podkładzie (1 min do rozpuszczenia); masaż lodem (3–5 min); kąpiel w wodzie z lodem (1–3 min); polewanie wodą 15–20°C (3–5 min)' },
-      { label: 'Kriokomora (krioterapia ogólna)', values: 'Temp. lecznicza -70°C do -110°C (max -176°C). Kwalifikacja lekarska, ubiór ochronny (trepy, strój bawełniany, skarpety, czapka/opaska, rękawice, maska), ciągły ruch w komorze, po wyjściu obowiązkowe 30 min kinezyterapii!' }
+      { label: 'Zabiegi z lodem i zimną wodą', values: 'Woreczki z lodem na bawełnianym podkładzie (1 min do rozpuszczenia); masaż lodem – zamrożona woda w plastikowym pojemniku (3–5 min); częściowa kąpiel w wodzie z lodem (1–3 min, wielokrotne zanurzanie); kompresy żelowe typu Coldpack; polewanie wodą 15–20°C (3–5 min; ostre stany zapalne, użądlenia)' },
+      { label: 'Kriokomora (krioterapia ogólna)', values: 'Temp. lecznicza -70°C do -110°C (max -176°C). Kwalifikacja lekarska, ubiór ochronny (trepy, strój bawełniany, skarpety, czapka/opaska, rękawice, maska), ciągły ruch w komorze, po wyjściu obowiązkowe 30 min kinezyterapii!' },
+      { label: 'Faza procesu chorobowego', values: 'Stan ostry i podostry (do 5 dni po urazie): wskazana – zmniejsza obrzęk i stan zapalny (urazy, skręcenia, zwichnięcia, złamania, świeże oparzenia). Stan przewlekły: stany bólowe w chorobie zwyrodnieniowej, RZS, artropatii łuszczycowej, dyskopatie, nerwobóle obwodowe, wzmożone napięcie mięśniowe i SM. Przy kilku okolicach łączny czas nawiewu azotem max 12 min.' }
     ],
     methodology: [
       'Nie wykonujemy zabiegu u pacjenta zziębniętego ani ze złym samopoczuciem; w gabinecie temp. pokojowa.',
@@ -212,6 +223,7 @@ export const MODALITIES_DB: Record<string, ModalityData> = {
     name: 'Ciepłolecznictwo (parafina, piasek, termofor, fango, sauna)',
     category: 'Termoterapia – ciepło',
     mechanismsAndLaws: [
+      'Podział zabiegów: ciepło suche (suche ogrzane powietrze – suszarka, grzałka, termofor), ciepło wilgotne (para wodna – sauna, wapozon) oraz zabiegi cieplne (parafina, maski rozgrzewające, fango, parafango, gorący piasek).',
       'Prawo Dastre-Morata: rozszerzenie naczyń skóry na dużej powierzchni powoduje zwężenie dużych naczyń klatki piersiowej i jamy brzusznej (nerki, śledziona, mózg reagują jak skóra).',
       'Drogi wymiany ciepła: promieniowanie 60%, parowanie 35%, przewodzenie (kondukcja) 12%, przenoszenie (konwekcja) 12%.',
       'Poprawa ukrwienia, rozciągliwości kolagenu, lepkości mazi stawowej (wzrost ruchomości), obniżenie napięcia mięśni, działanie przeciwbólowe i przeciwzapalne w stanach przewlekłych.'
@@ -221,19 +233,23 @@ export const MODALITIES_DB: Record<string, ModalityData> = {
       { label: 'Parafina – okłady pędzlem i zawijania', values: 'Temp. do 60°C (nakładamy warstwami do 1–2 cm; przy zawijaniu kompresy gazowe 12×50 cm, 2–3 warstwy), okrywamy ceratą i flanelą, czas 20–30 min' },
       { label: 'Parafina – rękawiczki / skarpety', values: 'Temp. 54°C (zanurzanie na 0,5–1 s wielokrotnie do grubości 2 cm), czas 30 min' },
       { label: 'Maseczka parafinowa (porażenie n. VII)', values: 'Temp. poniżej 45°C! Nakładana na kilka warstw gazy; oczy i uszy zabezpieczone grubą warstwą gazy' },
-      { label: 'Termofor i gorący piasek', values: 'Termofor: woda do 2/3 objętości, odpowietrzony, kontrola na policzku, przez bawełniany ręcznik + wełna. Piasek: 40–46°C (woreczki lub kąpiel do łuków żebrowych)' },
+      { label: 'Termofor', values: 'Woda do 2/3 objętości, usunięte powietrze znad wody, szczelnie zakręcony, kontrola temperatury przez przyłożenie do policzka, okolicę przykrywamy suchym bawełnianym ręcznikiem, a całość wełnianą tkaniną' },
+      { label: 'Gorący piasek', values: 'Miejscowo: piasek wydezynfekowany w 100°C, do zabiegu podgrzany do 40–46°C, w woreczku na pole zabiegowe. Kąpiele całkowite: wanna drewniana lub z tworzywa, 40–45°C, zanurzenie do łuków żebrowych (duża siła działania – tylko zdrowe serce i układ krążenia!)' },
+      { label: 'Fango i parafango', values: 'Fango – szlam wulkaniczny; parafango – mieszanka parafiny i sproszkowanego fango. Stosowane jako okłady częściowe lub kąpiele' },
+      { label: 'Parafina – temperatura wg okolicy', values: 'Kończyny 53–54°C; tułów / ciało max 60°C; twarz poniżej 45°C. Parafina biała: temp. topnienia 40–50°C, wrzenia 250°C' },
       { label: 'Sauna', values: 'Temp. 40°C przy posadzce, 40–50°C poziom I, 60°C poziom II, 70–80°C poziom III. Przed wejściem: opróżnić pęcherz, umyć i dokładnie osuszyć ciało' }
     ],
     methodology: [
       'Przed zabiegiem zawsze sprawdzamy czucie powierzchowne (temperatura) u pacjenta!',
       'Skóra umyta i osuszona; miejsca owłosione smarujemy wazeliną.',
-      'Parafinę zabiegową przygotowujemy dodając 20–40 g parafiny płynnej na 1 kg parafiny stałej białej.'
+      'Parafinę zabiegową przygotowujemy dodając 20–40 g parafiny płynnej na 1 kg parafiny stałej białej.',
+      'Fazy procesu: ciepło stosujemy w stanach przewlekłych i po ustąpieniu okresu ostrego (RZS w okresie przewlekłym, zmiany zwyrodnieniowe, stany pourazowe po okresie ostrym, po ustąpieniu ostrego zapalenia nerwów obwodowych). W stanie ostrym – obrzęki i ostre stany zapalne – ciepło jest PRZECIWWSKAZANE.'
     ],
     indications: [
-      'Przewlekłe choroby narządu ruchu (RZS w okresie remisji, choroba zwyrodnieniowa stawów, stany pourazowe po okresie ostrym)',
-      'Choroby układu nerwowego (rwa kulszowa, rwa ramienna, porażenie nerwu twarzowego – maseczki parafinowe)',
-      'Przewlekłe nieżyty dróg oddechowych, przewlekłe zapalenia pęcherzyka żółciowego, dróg moczowych, schorzenia kobiece',
-      'Zaburzenia przemiany materii (dna, otyłość), przykurcze stawowe i blizny'
+      'Przewlekłe choroby narządu ruchu (RZS w okresie przewlekłym, choroba zwyrodnieniowa stawów, stany pourazowe po okresie ostrym)',
+      'Choroby układu nerwowego (rwa kulszowa, rwa ramienna, porażenie nerwu twarzowego – maseczki parafinowe, po ustąpieniu okresu ostrego zapalenia nerwów obwodowych)',
+      'Choroby układu oddechowego (nieżyt gardła, oskrzeli, krtani), trawiennego (przewlekłe zapalenie pęcherzyka żółciowego, spastyczne zapalenie jelita grubego) i dróg moczowych (kamica nerkowa, przewlekłe zapalenia)',
+      'Przewlekłe stany zapalne narządów rodnych, dna moczanowa, otyłość, trądzik, czyraczność, przykurcze stawowe i blizny'
     ],
     contraindications: [
       'Ostre stany zapalne, obrzęki niezależnie od etiologii',
@@ -263,18 +279,22 @@ export const MODALITIES_DB: Record<string, ModalityData> = {
       { label: 'Współczynnik wypełnienia impulsu', values: 'Ciągły 1:1 (100% – głębokie przegrzanie) | Impulsowy 1:2 (50%) i 1:4 (25%) – delikatny efekt cieplny | Impulsowy 1:8 (12,5%) i 1:16 (6,25%) – brak efektu cieplnego (stany ostre!)' },
       { label: 'Czas trwania zabiegu', values: 'Krótki: 1–3 min | Średni: 4–9 min | Długi: 10–15 min. Segmentarnie: 2 min. Metoda stabilna: max 5 min (do 0,4–0,5 W/cm², wyłącznie impulsowo!)' },
       { label: 'Seria zabiegów', values: 'Stany ostre: ≤6 zabiegów codziennie | Stany przewlekłe: ok. 10 zabiegów z przerwą 1–2 dni' },
-      { label: 'Metody specjalne', values: 'Segmentarna (2 cm od wyrostków kolczystych, max do C3); Schemat odgłowowy (Th8/krzyżowa -> C3 + m. karku, 0,1–0,2 W/cm²); Schemat odogonowy (kość krzyżowa -> S-I -> 1/3 pasma B-P + grzebień -> Th8, min. 50% czasu przykręgosłupowo); Środowisko wodne (ręce, stopy, przykurcz łokcia – odgazowana woda 37°C, naczynie plastikowe/porcelanowe)' }
+      { label: 'Metody specjalne', values: 'Segmentarna (2 cm od wyrostków kolczystych, max do C3); Schemat odgłowowy (Th8/krzyżowa -> C3 + m. karku, 0,1–0,2 W/cm²); Schemat odogonowy (kość krzyżowa -> S-I -> 1/3 pasma B-P + grzebień -> Th8, min. 50% czasu przykręgosłupowo); Środowisko wodne (ręce, stopy, przykurcz łokcia – odgazowana woda 37°C, naczynie plastikowe/porcelanowe)' },
+      { label: 'Dobór parametrów wg fazy (wniosek z zasad bazy)', values: 'Stan ostry: tryb impulsowy 1:8 / 1:16 (bez efektu cieplnego), natężenie słabe 0,05–0,4 W/cm², czas krótki, do 6 zabiegów codziennie (urazy, przykurcze). Stan podostry: impulsowy 1:2 – 1:8, natężenie 0,2–0,7 W/cm², czas średni. Stan przewlekły: tryb ciągły lub impulsowy 1:2 / 1:4, natężenie słabe–średnie do ok. 1,0 W/cm², czas średni–długi, ok. 10 zabiegów z przerwą 1–2 dni. Skóra, blizny i twarz: 0,1–0,2 W/cm².' }
     ],
     methodology: [
       'Środki sprzęgające: żel, olej parafinowy, wazelina, woda. W ULTRAFONOFOREZIE głębokość penetracji leku zależy od czasu zabiegu (nie od natężenia); ZAKAZ stosowania maści (grozi oparzeniem!).',
       'Metoda labilna: 3 pasy o szerokości głowicy i dł. 10–12 cm (30 s na pas) lub kółka (2–3 s na okrążenie), mały nacisk.',
       'Przygotowanie pola: wcześniejsze schłodzenie zwiększa głęboką penetrację UD; ogrzanie (IR/parafina) zatrzymuje energię w powierzchownych warstwach skóry.',
-      'Bezwzględny zakaz samodzielnej aplikacji przez pacjenta; po zabiegu odkażenie głowicy.'
+      'Bezwzględny zakaz samodzielnej aplikacji przez pacjenta; po zabiegu osuszenie skóry i odkażenie głowicy; głowica stale w ruchu.',
+      'Skóra i blizny: obszar zabiegowy maksymalnie rozciągnięty, natężenie 0,1–0,2 W/cm² (dawkujemy słabo). Mięśnie: wzdłuż włókien, w przegrodach, na przejściu brzuśca w ścięgno i przyczepach, mięśnie rozluźnione.',
+      'Kości i stawy: zmieniamy ułożenie stawu dla lepszego wnikania fali; przy przykurczach staw w pozycji maksymalnego rozciągnięcia. Okolica przykręgosłupowa: głowica 2 cm od linii wyrostków kolczystych, zabieg ograniczamy do wysokości C3 (rdzeń przedłużony!).',
+      'Technika stabilna (zwoje nerwowe, złogi wapniowe): max 5 min, max 0,4–0,5 W/cm², WYŁĄCZNIE tryb impulsowy. Zabiegi w środowisku wodnym: woda odgazowana 37°C, naczynie plastikowe lub porcelanowe (unikamy fali stojącej), szczelna głowica, jednakowa odległość od ścianek i dna.'
     ],
     indications: [
       'Choroba zwyrodnieniowa kręgosłupa i stawów, zespoły bólowe (rwa kulszowa, ramienna)',
       'Zmiany zapalno-zwyrodnieniowe (np. ostroga piętowa, łokieć tenisisty/golfisty)',
-      'Blizny, przykurcz Dupuytrena, zwłókniałe mięśnie i torebki stawowe',
+      'Blizny, przykurcz Dupuytrena, przykurcze stawowe, zwłókniałe mięśnie i torebki stawowe',
       'Nerwobóle, bóle poamputacyjne'
     ],
     contraindications: [
@@ -312,13 +332,14 @@ export const MODALITIES_DB: Record<string, ModalityData> = {
     methodology: [
       'Wykonywać o stałej porze dnia, NIE w godzinach wieczornych (ryzyko bezsenności, szczególnie u osób starszych).',
       'Pacjent zdejmuje zegarek, telefon komórkowy, aparat słuchowy i luźne przedmioty metalowe.',
-      'Przed zabiegiem sprawdzamy sprawność aparatu wkładając magnes do wnętrza cewki (powinien drgać).'
+      'Przed zabiegiem sprawdzamy sprawność aparatu wkładając magnes do wnętrza cewki (powinien drgać).',
+      'Metoda nietermiczna – można ją stosować także w stanie ostrym; zabieg wykonujemy przez ubranie (najlepiej bawełniane), gips i bandaż, u dzieci oraz przy implantach nieelektronicznych (metalowych).'
     ],
     indications: [
       'Choroba zwyrodnieniowa stawów kończyn i kręgosłupa, zapalenie stawów i tkanek okołostawowych',
       'Pourazowe choroby narządu ruchu: złamania (również w opatrunku gipsowym!), skręcenia, zwichnięcia',
       'Osteoporoza, stawy rzekome, utrudnione gojenie ran, owrzodzenia troficzne',
-      'Zaburzenia krążenia obwodowego, stany zapalne nerwów, zapalenie oskrzeli i zatok'
+      'Zaburzenia krążenia obwodowego, stany zapalne nerwów, zaburzenia przemiany materii, zapalenie oskrzeli i zatok obocznych nosa'
     ],
     contraindications: [
       'Ciąża',
@@ -350,13 +371,15 @@ export const MODALITIES_DB: Record<string, ModalityData> = {
     ],
     methodology: [
       'Dobór programu P oraz stopniowanie M i I w kolejnych tygodniach terapii.',
-      'Możliwość stosowania ogólnoustrojowego (mata) lub miejscowego.'
+      'Możliwość stosowania ogólnoustrojowego (mata) lub miejscowego.',
+      'Kluczowy parametr zabiegu: stosunek indukcji do częstotliwości. Czas zabiegu ustawiony fabrycznie (8, 10 lub 12 min).',
+      'Aplikatory: całe ciało (schorzenia ogólnoustrojowe) – aplikator kliniczny, mata; wybrane części ciała – aplikatory pierścieniowe, eliptyczne, poduszka.'
     ],
     indications: [
-      'Przeciwbólowe: bóle migrenowe, zmiany zwyrodnieniowe kręgosłupa i stawów, urazy',
-      'Regeneracyjne i naczyniowe: odleżyny, oparzenia, stawy rzekome, angiopatia cukrzycowa, krwiaki, owrzodzenia podudzi',
-      'Antyspastyczne: stany po udarach mózgu, schorzenia neurologiczne ze spastycznością',
-      'Relaksacyjne i restytucyjne: nerwice, zaburzenia snu i koncentracji, restytucja powysiłkowa po treningu sportowym, stomatologia'
+      'Przeciwbólowe: bóle migrenowe, zmiany zwyrodnieniowe kręgosłupa i stawów, urazy stawów',
+      'Regeneracyjne i naczyniowe: odleżyny, oparzenia, stawy rzekome, angiopatia cukrzycowa, przyspieszenie wchłaniania krwiaków, owrzodzenia podudzi',
+      'Antyspastyczne: stany po udarach mózgu, choroby zwyrodnieniowe układu nerwowego ze spastycznością',
+      'Relaksacyjne i restytucyjne: nerwice, zaburzenia snu i koncentracji, restytucja powysiłkowa po treningu sportowym i odnowa biologiczna, stomatologia (zmiany okołowierzchołkowe, uszkodzenia nerwu po znieczuleniu, powikłania po zabiegach chirurgicznych)'
     ],
     contraindications: [
       'Ciąża',

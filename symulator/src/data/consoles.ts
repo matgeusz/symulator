@@ -695,12 +695,14 @@ export const THERMO_METHODS: Record<string, ThM> = {
   rekawiczki: { label: 'Parafina – rękawiczki / skarpety', temp: [52, 55], time: [25, 35], why: 'Rękawiczki/skarpety: 54°C, zanurzanie 0,5–1 s do grubości 2 cm, 30 min.' },
   maseczka: { label: 'Maseczka parafinowa (twarz)', temp: [35, 45], why: 'Maseczka: parafina < 45°C na kilku warstwach gazy; oczy i uszy zabezpieczone.' },
   piasek: { label: 'Gorący piasek (woreczek)', temp: [40, 46], why: 'Piasek: podgrzany do 40–46°C, w woreczku na pole zabiegowe.' },
+  fango: { label: 'Fango / parafango (okład częściowy)', why: 'Fango (szlam wulkaniczny) i parafango (parafina + sproszkowane fango): okłady częściowe lub kąpiele – baza nie podaje temperatury ani czasu.' },
+  sauna: { label: 'Sauna (ciepło wilgotne – całe ciało)', why: 'Sauna to zabieg na całe ciało (poziomy 40–50 / 60 / 70–80°C) – nie do pojedynczej okolicy.' },
   termofor: { label: 'Termofor', why: 'Termofor: woda do 2/3 objętości, odpowietrzony, kontrola na policzku, ręcznik bawełniany + wełna.' },
 }
 export function thermoEligible(loc: AnatomicalLocation): string[] {
   if (isFace(loc)) return ['maseczka']
   if (isHandFoot(loc)) return ['kapiel', 'rekawiczki', 'zawijanie']
-  return ['oklad', 'zawijanie', 'piasek', 'termofor']
+  return ['oklad', 'zawijanie', 'piasek', 'termofor', 'fango']
 }
 
 const thermotherapy: ConsoleSpec = {
